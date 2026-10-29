@@ -1,0 +1,104 @@
+{
+  "split_evaluated": "test",
+  "total_samples": 2400,
+  "metrics": {
+    "accuracy": 0.9879,
+    "precision": 0.9996,
+    "recall": 0.9876,
+    "f1_score": 0.9935,
+    "false_positive_rate": 0.0067,
+    "false_negative_rate": 0.0124
+  },
+  "confusion_matrix": {
+    "true_positive": 2222,
+    "true_negative": 149,
+    "false_positive": 1,
+    "false_negative": 28
+  },
+  "latencies_ms": {
+    "avg_preprocessing": 0.05,
+    "avg_rule_detector": 0.04,
+    "avg_ml_detector": 6.71,
+    "avg_total_detection": 6.86
+  },
+  "category_performance": {
+    "system_prompt_extraction": {
+      "total": 618,
+      "correct": 618,
+      "blocked": 618,
+      "allowed": 0
+    },
+    "security_bypass": {
+      "total": 218,
+      "correct": 213,
+      "blocked": 213,
+      "allowed": 5
+    },
+    "instruction_override": {
+      "total": 515,
+      "correct": 512,
+      "blocked": 512,
+      "allowed": 3
+    },
+    "multi_turn_escalation": {
+      "total": 4,
+      "correct": 1,
+      "blocked": 1,
+      "allowed": 3
+    },
+    "derived_pattern": {
+      "total": 843,
+      "correct": 843,
+      "blocked": 843,
+      "allowed": 0
+    },
+    "indirect_injection": {
+      "total": 8,
+      "correct": 5,
+      "blocked": 5,
+      "allowed": 3
+    },
+    "false_positive_trap": {
+      "total": 12,
+      "correct": 11,
+      "blocked": 1,
+      "allowed": 11
+    },
+    "benign": {
+      "total": 138,
+      "correct": 138,
+      "blocked": 0,
+      "allowed": 138
+    },
+    "obfuscation": {
+      "total": 25,
+      "correct": 20,
+      "blocked": 20,
+      "allowed": 5
+    },
+    "role_manipulation": {
+      "total": 3,
+      "correct": 3,
+      "blocked": 3,
+      "allowed": 0
+    },
+    "hierarchy_manipulation": {
+      "total": 5,
+      "correct": 5,
+      "blocked": 5,
+      "allowed": 0
+    },
+    "credential_leakage": {
+      "total": 10,
+      "correct": 2,
+      "blocked": 2,
+      "allowed": 8
+    },
+    "data_exfiltration": {
+      "total": 1,
+      "correct": 0,
+      "blocked": 0,
+      "allowed": 1
+    }
+  }
+}
