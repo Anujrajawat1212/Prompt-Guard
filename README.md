@@ -64,7 +64,6 @@ Secure-AI-Chatbot/
 ├── docs/
 │   ├── ARCHITECTURE.md           # Technical design & security architecture
 │   ├── DFD.md                    # Data Flow Diagrams (Level 0, Level 1, Level 2)
-│   └── VIVA_QUESTIONS.md         # Comprehensive Q&A preparation guide for Viva
 └── README.md                     # Project documentation and run guide
 ```
 
